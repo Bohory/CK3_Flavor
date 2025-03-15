@@ -1,0 +1,245 @@
+unite_ruthenia_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	}
+	decision_group_type = major
+	ai_check_interval = 120
+	desc = unite_ruthenia_decision_desc
+
+	is_shown = {
+		culture = severian 
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:unite_the_western_slavs_decision
+			}
+		}
+	}
+
+	is_valid = {
+		culture = { has_cultural_pillar = heritage_west_slavic }
+		completely_controls_region = custom_west_slavia #Has de jure Lands
+		OR = {
+			custom_description = {
+				text = unite_the_western_slavs_decision_tt_1
+				OR = {
+					has_primary_title = title:k_poland
+					has_primary_title = title:k_pomerania
+					has_primary_title = title:k_bohemia
+					has_primary_title = title:k_moravia
+					has_primary_title = title:k_sorbia
+				}
+			}
+			custom_description = {
+				text = unite_the_western_slavs_decision_tt_2
+				AND = {
+					highest_held_title_tier = tier_empire
+					OR = {
+						has_title = title:k_poland
+						has_title = title:k_pomerania
+						has_title = title:k_bohemia
+						has_title = title:k_moravia
+						has_title = title:k_sorbia
+					}
+				}
+			}
+		}
+	}
+	
+	is_valid_showing_failures_only = {
+		is_landed = yes
+	}
+
+	effect = {
+		gain_heroic_legend_seed_tooltip_effect = yes
+		save_scope_as = western_slav_uniter
+
+		show_as_tooltip = { unite_the_western_slavs_decision_effects = yes } #Actually applied in east_europe.0001 - prestige, laws, title, innovation effects
+
+		#Events
+		trigger_event = east_europe.0001
+		every_player = {
+			limit = {
+				NOT = { this = scope:western_slav_uniter }
+				is_within_diplo_range = { CHARACTER = scope:western_slav_uniter }
+			}
+			trigger_event = east_europe.0002
+		}
+
+		#Can only be done once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:unite_the_western_slavs_decision
+		}
+		set_global_variable = {
+			name = unite_the_western_slavs_decision
+			value = scope:western_slav_uniter
+		}
+		set_global_variable = {
+			name = unite_the_western_slavs_decision_title
+			value = scope:western_slav_uniter.primary_title
+		}
+	}
+	
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+
+unite_the_southern_slavs_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	}
+	decision_group_type = major
+	ai_check_interval = 120
+	desc = unite_the_southern_slavs_decision_desc
+
+	is_shown = {
+		culture = { has_cultural_pillar = heritage_south_slavic }
+		NOT = {
+			has_culture = culture:vlach # Not technically Slavic despite being in the South Slavic group.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:unite_the_southern_slavs_decision
+			}
+		}
+	}
+
+	is_valid = {
+		culture = { has_cultural_pillar = heritage_south_slavic }
+		completely_controls_region = custom_south_slavia #Has de jure Lands
+		OR = {
+			has_primary_title = title:k_croatia
+			has_primary_title = title:k_serbia
+			has_primary_title = title:k_bulgaria
+			has_primary_title = title:k_dacia
+			has_primary_title = title:k_moldavia
+			has_primary_title = title:k_bosnia
+		}
+	}
+	
+	is_valid_showing_failures_only = {
+		is_landed = yes
+	}
+
+	effect = {
+		gain_heroic_legend_seed_tooltip_effect = yes
+		save_scope_as = southern_slav_uniter
+
+		show_as_tooltip = { unite_the_southern_slavs_decision_effects = yes } #Actually applied in east_europe.0006 - prestige, laws, title, innovation effects
+
+		#Events
+		trigger_event = east_europe.0005
+		every_player = {
+			limit = {
+				NOT = { this = scope:southern_slav_uniter }
+				is_within_diplo_range = { CHARACTER = scope:southern_slav_uniter }
+			}
+			trigger_event = east_europe.0006
+		}
+
+		#Can only be done once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:unite_the_southern_slavs_decision
+		}
+		set_global_variable = {
+			name = unite_the_southern_slavs_decision
+			value = scope:southern_slav_uniter
+		}
+		set_global_variable = {
+			name = unite_the_southern_slavs_decision_title
+			value = scope:southern_slav_uniter.primary_title
+		}
+	}
+	
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+
+unite_the_slavs_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	}
+	decision_group_type = major
+	ai_check_interval = 120
+	desc = unite_the_slavs_decision_desc
+
+	is_shown = {
+		OR = {
+			culture = { has_cultural_pillar = heritage_west_slavic }
+			culture = { has_cultural_pillar = heritage_east_slavic }
+			culture = { has_cultural_pillar = heritage_south_slavic }
+			}
+		NOR = {
+			has_culture = culture:vlach # Not technically Slavic despite being in the South Slavic group.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:unite_the_slavs_decision
+			}
+		}
+	}
+
+	is_valid = {
+		OR = {
+			culture = { has_cultural_pillar = heritage_west_slavic }
+			culture = { has_cultural_pillar = heritage_east_slavic }
+			culture = { has_cultural_pillar = heritage_south_slavic }
+		}
+		completely_controls_region = custom_slavia
+	}
+	
+	is_valid_showing_failures_only = {
+		is_landed = yes
+	}
+
+	effect = {
+		save_scope_as = slav_uniter
+
+		show_as_tooltip = { unite_the_slavs_decision_effects = yes } #Actually applied in east_europe.0010 - prestige, laws, title, innovation effects
+
+		#Events
+		trigger_event = east_europe.0010
+		every_player = {
+			limit = {
+				NOT = { this = scope:slav_uniter }
+				is_within_diplo_range = { CHARACTER = scope:slav_uniter }
+			}
+			trigger_event = east_europe.0011
+		}
+
+		#Can only happen once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:unite_the_slavs_decision
+		}
+		set_global_variable = {
+			name = unite_the_slavs_decision
+			value = scope:slav_uniter
+		}
+	}
+
+
+	cost = { gold = { value = 600 } }
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
