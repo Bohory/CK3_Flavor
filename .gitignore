@@ -1,0 +1,6 @@
+*.mod
+/*
+!CK3_Slavic_Flavor/
+!.gitignore
+!CK3_Slavic_Flavor.mod
+!descriptor.mod

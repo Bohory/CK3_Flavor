@@ -1,0 +1,9 @@
+version="0.1"
+tags={
+	"Balance"
+	"Map"
+	"Culture"
+}
+name="CK3_Slavic_Flavor"
+supported_version="1.15.0"
+remote_file_id="3444888441"
