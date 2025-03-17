@@ -76,13 +76,58 @@ sophia_kyivska_01 = {
 		building_requirement_tribal = no
 	}
 	
-	is_enabled = {
-		custom_description = {
-			text = holy_site_building_trigger
-			barony = {
-				is_holy_site_of = scope:holder.faith
-			}
+	show_disabled = yes
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		monthly_piety_gain_per_knight_add = 0.1
+		intrigue_per_prestige_level = 2
+		learning = 2
+		knight_limit = 2
+		knight_effectiveness_mult = 0.2
+		monthly_dynasty_prestige_mult = 0.05
+	}
+	
+	county_modifier = {
+		development_growth_factor = 0.2
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
 		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+##########
+# Sophia Polotska
+##########
+
+sophia_polotska_01 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_dlc_feature = legends_of_the_dead }
+			desc = building_funeral_effect_desc
+		}
+	}
+
+	
+	asset = {
+		type = pdxmesh
+		name = "building_special_holy_wisdom_01_mesh"
+		requires_dlc_flag = medieval_monuments
+	}
+	construction_time = very_slow_construction_time
+	type_icon = "icon_structure_holy_wisdom.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
 	}
 	
 	show_disabled = yes

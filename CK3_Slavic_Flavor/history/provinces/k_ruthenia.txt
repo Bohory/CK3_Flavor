@@ -6,7 +6,7 @@
 	religion = slavic_pagan
 	holding = tribal_holding
 	special_building_slot = sophia_kyivska_01
-	duchy_capital_building = golden_gate_of_kiev_01
+	duchy_capital_building_slot = golden_gate_of_kiev_01
 	867.1.1 = {
 		buildings = {
 			palisades_01
@@ -23,6 +23,7 @@
 	        special_building = sophia_kyivska_01
 	}
 	1066.1.1 = {
+		culture = ruthenian
 		buildings = {
 			castle_02
 			farm_estates_02
@@ -70,6 +71,9 @@
 	989.9.15 = {
 		religion = orthodox
 	}
+	1066.1.1 = {
+		culture = ruthenian
+	}
 }
 5088 = {	#Mezhybozhe
 	holding = none
@@ -91,6 +95,9 @@
 	}
 	989.9.15 = {
 		religion = orthodox
+	}
+	1066.1.1 = {
+		culture = ruthenian
 	}
 }
 5092 = {	#Kolodiazhen
@@ -120,6 +127,9 @@
 	989.9.15 = {
 		religion = orthodox
 	}
+	1066.1.1 = {
+		culture = ruthenian
+	}
 }
 5096 = {	#Ivankiv
 	holding = none
@@ -138,6 +148,9 @@
 	}
 	989.9.15 = {
 		religion = orthodox
+	}
+	1066.1.1 = {
+		culture = ruthenian
 	}
 }
 5099 = {	#Vinnytsia
@@ -161,6 +174,9 @@
 	#1032.1.1 = {
 	#	#holding = castle_holding
 	#}
+	1066.1.1 = {
+		culture = ruthenian
+	}
 }
 5090 = {	#Malaia Skivrka
 	holding = none
@@ -182,6 +198,7 @@
 		religion = orthodox
 	}
 	1066.1.1 = {
+		culture = ruthenian
 		buildings = {
 			hunting_grounds_01
 			peat_quarries_01
@@ -206,6 +223,9 @@
 	}
 	989.9.15 = {
 		religion = orthodox
+	}
+	1066.1.1 = {
+		culture = ruthenian
 	}
 }
 5105 = {	#Ovruch
@@ -238,6 +258,9 @@
 	989.9.15 = {
 		religion = orthodox
 	}
+	1066.1.1 = {
+		culture = ruthenian
+	}
 }
 5110 = {	#Stepan'
 	holding = none
@@ -259,6 +282,7 @@
 		religion = orthodox
 	}
 	1066.1.1 = {
+		culture = ruthenian
 		buildings = {
 			curtain_walls_01
 			barracks_01
@@ -293,6 +317,9 @@
 	989.9.15 = {
 		religion = orthodox
 	}
+	1066.1.1 = {
+		culture = ruthenian
+	}
 }
 5182 = {	#Akhtyr
 	holding = none
@@ -324,6 +351,9 @@
 	989.9.15 = {
 		religion = orthodox
 	}
+	1066.1.1 = {
+		culture = ruthenian
+	}
 }
 5186 = {	#Lokhrytsia
 	holding = none
@@ -345,6 +375,9 @@
 	}
 	989.9.15 = {
 		religion = orthodox
+	}
+	1066.1.1 = {
+		culture = ruthenian
 	}
 }
 5190 = {	#Lubny
@@ -368,6 +401,7 @@
 		religion = orthodox
 	}
 	1066.1.1 = {
+		culture = ruthenian
 		buildings = {
 			curtain_walls_01
 			#peat_quarries_01
@@ -408,6 +442,9 @@
 	989.9.15 = {
 		religion = orthodox
 	}
+	1066.1.1 = {
+		culture = ruthenian
+	}
 }
 5204 = {	#Trubetsk
 	holding = none
@@ -436,6 +473,9 @@
 	989.9.15 = {
 		religion = orthodox
 	}
+	1066.1.1 = {
+		culture = ruthenian
+	}
 }
 5191 = {	#Borzna
 	holding = none
@@ -461,6 +501,9 @@
 	989.9.15 = {
 		religion = orthodox
 	}
+	1066.1.1 = {
+		culture = ruthenian
+	}
 }
 5194 = {	#Vyr'
 	holding = none
@@ -483,9 +526,15 @@
 	989.9.15 = {
 		religion = orthodox
 	}
+	1066.1.1 = {
+		culture = ruthenian
+	}
 }
 5197 = {	#Rylsk
 	holding = none
+	1066.1.1 = {
+		culture = ruthenian
+	}
 	1152.1.1 = {
 		holding = city_holding
 	}
@@ -505,6 +554,9 @@
 	holding = tribal_holding
 	989.9.15 = {
 		religion = orthodox
+	}
+	1066.1.1 = {
+		culture = ruthenian
 	}
 	1178.1.1 = {
 		holding = castle_holding
@@ -534,6 +586,9 @@
 	1178.1.1 = {
 		holding = castle_holding
 	}
+	1066.1.1 = {
+		culture = white_rus
+	}
 }
 5213 = {	#Vorotynsk
 	holding = none
@@ -556,6 +611,9 @@
 	989.9.15 = {
 		religion = orthodox
 	}
+	1066.1.1 = {
+		culture = ruthenian
+	}
 	1178.1.1 = {
 		holding = castle_holding
 	}
@@ -574,9 +632,11 @@
 	religion = slavic_pagan
 	holding = tribal_holding
 
+	1066.1.1 = {
+		culture = ruthenian
+	    religion = orthodox	  	
+	}
 	1155.1.1 = {
-		culture = vyatihs
-		religion = orthodox
 		holding = castle_holding
 	}
 }
@@ -593,6 +653,10 @@
 	religion = slavic_pagan
 	holding = tribal_holding
 
+	1066.1.1 = {
+		culture = russian
+	    religion = orthodox
+	}
 	1178.1.1 = {
 		holding = castle_holding
 	}

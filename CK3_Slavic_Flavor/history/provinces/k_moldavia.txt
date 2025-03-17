@@ -11,6 +11,9 @@
 	1000.1.1 = {
 		religion = orthodox
 	}
+	1066.1.1 = {
+		culture = ruthenian
+	}
 	1178.1.1 = {
 		culture = vlach
 	}
@@ -67,6 +70,9 @@
 	1000.1.1 = {
 		religion = orthodox
 	}
+	1066.1.1 = {
+		culture = ruthenian
+	}
 	1178.1.1 = {
 		culture = vlach
 	}
@@ -88,6 +94,9 @@
 		religion = orthodox
 		special_building = hotin_fort_01
 	}
+	1066.1.1 = {
+		culture = ruthenian
+	}
 }
 5041 = {	#Tetina
 	holding = none
@@ -107,6 +116,9 @@
 	}
 	1000.1.1 = {
 		religion = orthodox
+	}
+	1066.1.1 = {
+		culture = ruthenian
 	}
 	1178.1.1 = {
 		culture = vlach
@@ -130,6 +142,9 @@
 	1000.1.1 = {
 		religion = orthodox
 	}
+	1066.1.1 = {
+		culture = ruthenian
+	}
 	1178.1.1 = {
 		culture = vlach
 	}
@@ -148,6 +163,9 @@
 	}
 	1000.1.1 = {
 		religion = orthodox
+	}
+	1066.1.1 = {
+		culture = ruthenian
 	}
 	1178.1.1 = {
 		culture = vlach
@@ -291,6 +309,9 @@
 	}
 	1000.1.1 = {
 		religion = orthodox
+	}
+	1066.1.1 = {
+		culture = ruthenian
 	}
 	1178.1.1 = {
 		culture = vlach

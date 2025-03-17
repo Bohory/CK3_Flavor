@@ -322,16 +322,17 @@ ulichs = {
 	}
 }
 ruthenian = {
-	color = 
+	color = {0.0, 0.5, 1.0}
 	
 	ethos = ethos_stoic
 	heritage = heritage_east_slavic
-	language = language_ruthenian
+	language = language_east_slavic
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_druzhina
 		tradition_agrarian
-        tradition_brewery
+                tradition_brewery
+                tradition_varangians_to_greeks
 	}
 	
 	name_list = name_list_volhynian
@@ -350,16 +351,17 @@ ruthenian = {
 	}
 }
 white_rus = {
-	color = 
+	color = {0.94, 0.97, 1.0}
 	
 	ethos = ethos_communal
 	heritage = heritage_east_slavic
-	language = language_white_rusian
+	language = language_east_slavic
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_druzhina
-        tradition_artisans
+                tradition_artisans
 		tradition_forest_folk
+                tradition_varangians_to_greeks
 	}
 	
 	name_list = name_list_russian
@@ -377,16 +379,17 @@ white_rus = {
 	}
 }
 novgorodian = {
-	color = 
+	color = {0.0, 0.5, 0.0}
 	
 	ethos = ethos_stoic
 	heritage = heritage_east_slavic
-	language = language_novgorodian
+	language = language_east_slavic
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_hit_and_run
 		tradition_forest_folk
 		tradition_druzhina
+                tradition_varangians_to_greeks
 	}
 	
 	name_list = name_list_russian

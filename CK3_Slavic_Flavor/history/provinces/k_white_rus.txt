@@ -18,6 +18,9 @@
 		religion = orthodox
 		holding = castle_holding
 	}
+	1066.1.1 = {
+		culture = white_rus
+	}
 }
 5043 = {	#Sokolka
 	holding = none
@@ -35,6 +38,9 @@
 		religion = orthodox
 		holding = castle_holding
 	}
+	1066.1.1 = {
+		culture = white_rus
+	}
 }
 5045 = {	#Slonim
 	holding = none
@@ -49,6 +55,9 @@
 	989.9.15 = {
 		religion = orthodox
 		holding = castle_holding
+	}
+	1066.1.1 = {
+		culture = white_rus
 	}
 }
 5112 = {	#Lahishyn
@@ -67,6 +76,9 @@
 		religion = orthodox
 		holding = castle_holding
 	}
+	1066.1.1 = {
+		culture = white_rus
+	}
 }
 5115 = {	#Zhytkavichy
 	holding = none
@@ -83,6 +95,9 @@
 	989.9.15 = {
 		religion = orthodox
 	}
+	1066.1.1 = {
+		culture = white_rus
+	}
 }
 5118 = {	#Baranovichi
 	holding = none
@@ -96,6 +111,9 @@
 	989.9.15 = {
 		religion = orthodox
 		holding = castle_holding
+	}
+	1066.1.1 = {
+		culture = white_rus
 	}
 }
 5120 = {	#Zhlobin
@@ -122,6 +140,9 @@
 	}
 	989.9.15 = {
 		religion = orthodox
+	}
+	1066.1.1 = {
+		culture = white_rus
 	}
 }
 5123 = {	#Lahoysk
@@ -155,6 +176,9 @@
 		religion = orthodox
 		holding = castle_holding
 	}
+	1066.1.1 = {
+		culture = white_rus
+	}
 }
 5128 = {	#Drutsk
 	holding = none
@@ -169,6 +193,7 @@
 	culture = krivichs
 	religion = slavic_pagan
 	holding = tribal_holding
+	special_building_slot = sophia_polotska_01
 	985.1.1 = {
 		holding = castle_holding
 	}
@@ -176,6 +201,8 @@
 		religion = orthodox
 	}
 	1066.1.1 = {
+		culture = white_rus
+	    special_building = sophia_polotska_01
 		buildings = {
 			ramparts_01
 			hunting_grounds_01
@@ -201,6 +228,9 @@
 	989.9.15 = {
 		religion = orthodox
 	}
+	1066.1.1 = {
+		culture = white_rus
+	}
 }
 5132 = {	#Vetrino
 	holding = none
@@ -220,6 +250,9 @@
 	989.9.15 = {
 		religion = orthodox
 	}
+	1066.1.1 = {
+		culture = white_rus
+	}
 }
 5135 = {	#Haradok
 	holding = none
@@ -237,6 +270,9 @@
 	989.9.15 = {
 		religion = orthodox
 		holding = castle_holding
+	}
+	1066.1.1 = {
+		culture = white_rus
 	}
 }
 5219 = {	#Dorogobyzh
@@ -270,6 +306,9 @@
 		religion = orthodox
 		holding = castle_holding
 	}
+	1066.1.1 = {
+		culture = white_rus
+	}
 }
 5222 = {	#Velizh
 	holding = none
@@ -286,6 +325,9 @@
 	989.9.15 = {
 		religion = orthodox
 		holding = castle_holding
+	}
+	1066.1.1 = {
+		culture = white_rus
 	}
 }
 5224 = {	#Klimavichy
@@ -306,6 +348,9 @@
 	1050.1.1 = {
 		culture = vyatihs
 	}
+	1066.1.1 = {
+		culture = russian
+	}
 	1178.1.1 = {
 		holding = castle_holding
 	}
@@ -325,6 +370,9 @@
 	989.9.15 = {
 		religion = orthodox
 		holding = castle_holding
+	}
+	1066.1.1 = {
+		culture = novgorodian
 	}
 }
 5171 = {	#Andreapol
