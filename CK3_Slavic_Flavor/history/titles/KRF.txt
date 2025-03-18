@@ -12,11 +12,6 @@ k_galicia-volhynia = {
 	}
 }
 
-k_chernihiv = {
-	1.1.1 = {
-		de_jure_liege = e_russia
-	}
-}
 k_pomerania = {
 	1.1.1 = {
 		de_jure_liege = e_west_slavia
