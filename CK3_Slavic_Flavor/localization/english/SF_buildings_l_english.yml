@@ -1,19 +1,19 @@
-<<<<<<< HEAD
-﻿l_english: 
+l_english: 
  BUILDING_DEBUG_KEY: "#D DEBUG KEY:#! [BUILDING.GetKey]"
  BUILDING_DEBUG_FULL: "#D DEBUG KEY:#! [Building.GetKey]\n#D DEBUG DESC:#! [Building.GetDescKey]"
-
- building_type_sophia_kyivska_01:1 "Sophia Kyivska"
- building_type_sophia_kyivska_01_desc:0 "Saint Sophia Cathedral is an architectural monument of Kievan Rus"
- building_golden_gate_of_kiev_01:0 "$building_type_sophia_kyivska_01$"
- building_golden_gate_of_kiev_01_desc:0 "$building_type_sophia_kyivska_01_desc$"
-
- building_type_sophia_polotska_01:1 "Sophia Polotska"
- building_type_sophia_polotska_01_desc:0 "Saint Sophia Cathedral is an architectural monument of Kievan Rus"
- building_golden_gate_of_kiev_01:0 "$building_type_sophia_polotska_01$"
- building_golden_gate_of_kiev_01_desc:0 "$building_type_sophia_polotska_01_desc$"
-
+ BUILDING_TOOLTIP_TEXT:1 "[Building.GetDescription]\n\n#S Effect:\n#![Building.GetEffectDescription( GetPlayer )]"
+ 
  building_type_golden_gate_of_kiev_01:1 "Golden Gate of Kyiv"
  building_type_golden_gate_of_kiev_01_desc:1 "Modeled and named after a gate in Constantinople, the Golden Gate of Kyiv serves as both an entrance to the city and a triumphal arch. The golden dome of the church, built on top of the gate, can be seen from afar and makes it a prominent symbol of Kyiv."
  building_golden_gate_of_kiev_01:0 "$building_type_golden_gate_of_kiev_01$"
  building_golden_gate_of_kiev_01_desc:0 "$building_type_golden_gate_of_kiev_01_desc$"
+ 
+ building_type_sophia_kyivska_01:1 "Sophia Kyivska"
+ building_type_sophia_kyivska_01_desc:1 "Modeled and named after a gate in Constantinople, the Golden Gate of Kyiv serves as both an entrance to the city and a triumphal arch. The golden dome of the church, built on top of the gate, can be seen from afar and makes it a prominent symbol of Kyiv."
+ building_sophia_kyivska_01:0 "$building_type_sophia_kyivska_01$"
+ building_sophia_kyivska_01_desc:0 "$building_type_sophia_kyivska_01_desc$"
+
+ building_type_sophia_polotska_01:1 "Sophia Polotska"
+ building_type_sophia_polotska_01_desc:1 "Modeled and named after a gate in Constantinople, the Golden Gate of Kyiv serves as both an entrance to the city and a triumphal arch. The golden dome of the church, built on top of the gate, can be seen from afar and makes it a prominent symbol of Kyiv."
+ building_sophia_polotska_01:0 "$building_type_sophia_polotska_01$"
+ building_sophia_polotska_01_desc:0 "$building_type_sophia_polotska_01_desc$"

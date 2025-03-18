@@ -108,7 +108,7 @@ volhynian = {
 	}
 }
 polans = {
-	color = {0.13, 0.67, 0.8}
+	color = hsv { 0.72 0.6 0.76 }
 	
 	ethos = ethos_communal
 	heritage = heritage_east_slavic
@@ -135,7 +135,7 @@ polans = {
 	}
 }
 drevlyans = {
-	color = russian
+	color = { 248 138 71 }
 	
 	ethos = ethos_communal
 	heritage = heritage_east_slavic
@@ -162,7 +162,7 @@ drevlyans = {
 	}
 }
 dregovichs = {
-	color = {0.96, 0.76, 0.76}
+	color = bosnian
 	
 	ethos = ethos_communal
 	heritage = heritage_east_slavic
@@ -189,7 +189,7 @@ dregovichs = {
 	}
 }
 krivichs = {
-	color = {0.94, 1.0, 1.0}
+	color = italian
 	
 	ethos = ethos_communal
 	heritage = heritage_east_slavic
@@ -216,7 +216,7 @@ krivichs = {
 	}
 }
 tiverians = {
-	color = {0.91, 0.84, 0.42}
+	color = { 0.1 0.6 0.1 }
 	
 	ethos = ethos_egalitarian
 	heritage = heritage_east_slavic
@@ -243,7 +243,7 @@ tiverians = {
 	}
 }
 radimichs = {
-	color = {0.8, 0.58, 0.46}
+	color = zaghawa
 	
 	ethos = ethos_egalitarian
 	heritage = heritage_east_slavic
@@ -270,7 +270,7 @@ radimichs = {
 	}
 }
 vyatihs = {
-	color = {0.0, 0.5, 0.0}
+	color = russian
 	
 	ethos = ethos_communal
 	heritage = heritage_east_slavic
@@ -322,7 +322,7 @@ ulichs = {
 	}
 }
 ruthenian = {
-	color = {0.0, 0.5, 1.0}
+	color = hsv { 0.72 0.6 0.76 }
 	
 	ethos = ethos_stoic
 	heritage = heritage_east_slavic
@@ -351,7 +351,7 @@ ruthenian = {
 	}
 }
 white_rus = {
-	color = {0.94, 0.97, 1.0}
+	color = italian
 	
 	ethos = ethos_communal
 	heritage = heritage_east_slavic
@@ -379,7 +379,7 @@ white_rus = {
 	}
 }
 novgorodian = {
-	color = {0.0, 0.5, 0.0}
+	color = { 0.45 0.6 0.2 }
 	
 	ethos = ethos_stoic
 	heritage = heritage_east_slavic
