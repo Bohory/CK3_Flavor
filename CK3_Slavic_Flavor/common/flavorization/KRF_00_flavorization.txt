@@ -1,0 +1,167 @@
+﻿# Rus
+prince_male_rus = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 40
+	name_lists = { name_list_russian }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+prince_female_rus = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 40
+	name_lists = { name_list_russian }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+prince_male_rus_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 40
+	name_lists = { name_list_russian }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+prince_female_rus_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 40
+	name_lists = { name_list_russian }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+
+# Ruthenian
+prince_male_ruthenian = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 40
+	name_lists = { name_list_russian }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+prince_female_ruthenian = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 40
+	name_lists = { name_list_russian }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+prince_male_ruthenian_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 40
+	name_lists = { name_list_russian }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+prince_female_ruthenian_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 40
+	name_lists = { name_list_russian }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+
+# White Rus
+prince_male_white_rus = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 40
+	name_lists = { name_list_russian }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+prince_female_white_rus = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 40
+	name_lists = { name_list_russian }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+prince_male_white_rus_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 40
+	name_lists = { name_list_russian }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+prince_female_white_rus_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 40
+	name_lists = { name_list_russian }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+
+# Novgorodian
+prince_male_white_novgorodian = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 40
+	name_lists = { name_list_russian }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+prince_female_novgorodian = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 40
+	name_lists = { name_list_russian }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+prince_male_novgorodian_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 40
+	name_lists = { name_list_russian }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+prince_female_novgorodian_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 40
+	name_lists = { name_list_russian }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}

@@ -1,0 +1,276 @@
+##d_chernigov ###################################
+###c_chernigov
+554 = {		#Chernigov
+	culture = severian
+	religion = slavic_pagan
+	holding = tribal_holding
+	988.1.2 = {
+		holding = castle_holding
+	}
+	989.9.15 = {
+		religion = orthodox
+	}
+	1066.1.1 = {
+		culture = ruthenian
+		buildings = {
+			curtain_walls_01
+			#peat_quarries_01
+			barracks_01
+		}
+	}
+}
+553 = {		#Lyubech
+	holding = tribal_holding
+	988.1.2 = {
+		holding = castle_holding
+	}
+}
+5200 = {	#Gomel
+	holding = none
+	1142.1.1 = {
+		holding = city_holding
+	}
+}
+5201 = {	#Unenezh
+	holding = none
+	1147.1.1 = {
+		holding = church_holding
+	}
+}
+5202 = {	#Surazichi
+	holding = none
+}
+
+###c_starodub
+5203 = {	#Starodub
+	culture = radimichs
+	religion = slavic_pagan
+	holding = tribal_holding
+	988.1.2 = {
+		holding = castle_holding
+	}
+	989.9.15 = {
+		religion = orthodox
+	}
+	1066.1.1 = {
+		culture = ruthenian
+	}
+}
+5204 = {	#Trubetsk
+	holding = none
+	975.1.1 = {
+		holding = church_holding
+	}
+}
+576 = {		#Debryansk (Bryansk)
+	holding = none
+	1146.1.1 = {
+		holding = city_holding
+	}
+}
+5205 = {	#Mglin
+	holding = none
+}
+
+###c_novgorod_seversky
+567 = {		#Novgorod Seversky
+	culture = severian
+	religion = slavic_pagan
+	holding = tribal_holding
+	988.1.2 = {
+		holding = castle_holding
+	}
+	989.9.15 = {
+		religion = orthodox
+	}
+	1066.1.1 = {
+		culture = ruthenian
+	}
+}
+5191 = {	#Borzna
+	holding = none
+	1000.1.1 = {
+		holding = church_holding
+	}
+}
+5192 = {	#Glukhov
+	holding = none
+	1152.1.1 = {
+		holding = city_holding
+	}
+}
+
+###c_putyvl
+5193 = {	#Putyvl
+	culture = severian
+	religion = slavic_pagan
+	holding = tribal_holding
+	935.1.2 = {
+		holding = castle_holding
+	}
+	989.9.15 = {
+		religion = orthodox
+	}
+	1066.1.1 = {
+		culture = ruthenian
+	}
+}
+5194 = {	#Vyr'
+	holding = none
+	1000.1.1 = {
+		holding = church_holding
+	}
+}
+5195 = {	#Konotop
+	holding = none
+}
+
+###c_kursk
+5196 = {	#Kursk
+	culture = severian
+	religion = slavic_pagan
+	holding = tribal_holding
+	988.1.2 = {
+		holding = castle_holding
+	}
+	989.9.15 = {
+		religion = orthodox
+	}
+	1066.1.1 = {
+		culture = ruthenian
+	}
+}
+5197 = {	#Rylsk
+	holding = none
+	1066.1.1 = {
+		culture = ruthenian
+	}
+	1152.1.1 = {
+		holding = city_holding
+	}
+}
+5198 = {	#Sudzha
+	holding = none
+}
+5199 = {	#Oboyan
+	holding = none
+}
+
+##d_karachev ###################################
+###c_karachev
+5209 = {	#Karachev
+	culture = radimichs
+	religion = slavic_pagan
+	holding = tribal_holding
+	989.9.15 = {
+		religion = orthodox
+	}
+	1066.1.1 = {
+		culture = ruthenian
+	}
+	1178.1.1 = {
+		holding = castle_holding
+	}
+}
+5210 = {	#Krom
+	holding = none
+	1147.1.1 = {
+		holding = city_holding
+	}
+}
+5211 = {	#Oryol
+	holding = none
+	1150.1.1 = {
+		holding = church_holding
+	}
+}
+
+###c_kozelsk
+5212 = {	#Kozelsk
+	culture = radimichs
+	religion = slavic_pagan
+	holding = tribal_holding
+	989.9.15 = {
+		religion = orthodox
+	}
+	1178.1.1 = {
+		holding = castle_holding
+	}
+	1066.1.1 = {
+		culture = white_rus
+	}
+}
+5213 = {	#Vorotynsk
+	holding = none
+	1155.1.1 = {
+		holding = city_holding
+	}
+}
+5214 = {	#Belev
+	holding = none
+	1147.1.1 = {
+		holding = church_holding
+	}
+}
+
+###c_sevsk
+5206 = {	#Sevsk
+	culture = radimichs
+	religion = slavic_pagan
+	holding = tribal_holding
+	989.9.15 = {
+		religion = orthodox
+	}
+	1066.1.1 = {
+		culture = ruthenian
+	}
+	1178.1.1 = {
+		holding = castle_holding
+	}
+}
+5207 = {	#Ust-livny
+	holding = none
+}
+5208 = {	#Lokot
+	holding = none
+}
+
+##d_novosil ###################################
+###c_novosil
+5215 = {	#Novosil
+	culture = vyatihs
+	religion = slavic_pagan
+	holding = tribal_holding
+
+	1066.1.1 = {
+		culture = ruthenian
+	    religion = orthodox	  	
+	}
+	1155.1.1 = {
+		holding = castle_holding
+	}
+}
+5216 = {	#Mtensk
+	holding = none
+	1146.1.1 = {
+		holding = city_holding
+	}
+}
+
+###c_odoyev
+5217 = {	#Odoyev
+	culture = vyatihs
+	religion = slavic_pagan
+	holding = tribal_holding
+
+	1066.1.1 = {
+		culture = russian
+	    religion = orthodox
+	}
+	1178.1.1 = {
+		holding = castle_holding
+	}
+}
+5218 = {	#Suvorov
+	holding = none
+}

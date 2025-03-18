@@ -335,8 +335,7 @@ ruthenian = {
                 tradition_varangians_to_greeks
 	}
 	
-	name_list = name_list_volhynian
-	name_list = name_list_severian
+	name_list = name_list_russian
 
 	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
