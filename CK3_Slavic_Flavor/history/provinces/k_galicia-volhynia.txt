@@ -12,7 +12,7 @@
 		religion = orthodox
 	}
 	1066.1.1 = {
-		culture = ruthenian
+		culture = galich_volhynian
 	}
 }
 5047 = {	#Lutsk
@@ -43,7 +43,7 @@
 		religion = orthodox
 	}
 	1066.1.1 = {
-		culture = ruthenian
+		culture = galich_volhynian
 	}
 }
 5052 = {	# Rivne
@@ -65,7 +65,7 @@
 		religion = orthodox
 	}
 	1066.1.1 = {
-		culture = ruthenian
+		culture = galich_volhynian
 	}
 }
 5054 = {	#Bielsk
@@ -77,7 +77,7 @@
 		holding = city_holding
 	}
 	1066.1.1 = {
-		culture = ruthenian
+		culture = galich_volhynian
 	}
 }
 5055 = {	#Kamyanyets
@@ -99,7 +99,7 @@
 		religion = orthodox
 	}
 	1066.1.1 = {
-		culture = ruthenian
+		culture = galich_volhynian
 	}
 }
 5058 = {	#Kobryn
@@ -122,7 +122,7 @@
 		religion = orthodox
 	}
 	1066.1.1 = {
-		culture = ruthenian
+		culture = galich_volhynian
 	}
 }
 5060 = {	#Sambir
@@ -151,7 +151,7 @@
 		religion = orthodox
 	}
 	1066.1.1 = {
-		culture = ruthenian
+		culture = galich_volhynian
 	}
 }
 5064 = {	#Zvenyhorod
@@ -186,7 +186,7 @@
 		religion = orthodox
 	}
 	1066.1.1 = {
-		culture = ruthenian
+		culture = galich_volhynian
 	}
 }
 5068 = {	#Horodok
@@ -208,7 +208,7 @@
 		religion = orthodox
 	}
 	1066.1.1 = {
-		culture = ruthenian
+		culture = galich_volhynian
 	}
 }
 5071 = {	#Dubno
@@ -237,7 +237,7 @@
 		religion = orthodox
 	}
 	1066.1.1 = {
-		culture = ruthenian
+		culture = galich_volhynian
 	}
 }
 5074 = {	#Volin
@@ -270,7 +270,7 @@
 		religion = orthodox
 	}
 	1066.1.1 = {
-		culture = ruthenian
+		culture = galich_volhynian
 	}
 }
 5078 = {	#Liubachev
@@ -289,7 +289,7 @@
 		religion = orthodox
 	}
 	1066.1.1 = {
-		culture = ruthenian
+		culture = galich_volhynian
 		buildings = {
 			hill_forts_01
 			#hill_farms_01

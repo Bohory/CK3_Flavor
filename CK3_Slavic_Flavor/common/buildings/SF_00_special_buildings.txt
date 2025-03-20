@@ -1,0 +1,358 @@
+﻿
+##########
+# Golden Gate of Kiev
+##########
+
+golden_gate_of_kiev_01 = {
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_golden_gate_of_kiev.dds"
+	
+	can_construct_potential = {
+		barony ?= title:b_kiev
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_battlements
+		}
+	}
+	
+	cost_gold = 1000
+	
+	character_modifier = {
+		monthly_prestige_gain_mult = 0.1
+		monthly_piety_gain_mult = 0.1
+	}
+	max_garrison = good_building_max_garrison_tier_1
+	province_modifier = {
+		fort_level = good_building_fort_level_tier_1
+		defender_holding_advantage = normal_building_advantage_tier_1
+		travel_danger = -20
+	}
+	county_modifier = {
+		development_growth = 0.2
+		development_growth_factor = 0.1
+		tax_mult = 0.2
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = duchy_capital
+
+	flag = travel_point_of_interest_wonder
+}
+
+##########
+# Sophia Kyivska
+##########
+
+sophia_kyivska_01 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_dlc_feature = legends_of_the_dead }
+			desc = building_funeral_effect_desc
+		}
+	}
+
+	
+	asset = {
+		type = pdxmesh
+		name = "building_special_holy_wisdom_01_mesh"
+		requires_dlc_flag = medieval_monuments
+	}
+	construction_time = very_slow_construction_time
+	type_icon = "icon_structure_holy_wisdom.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		monthly_piety_gain_per_knight_add = 0.1
+		learning = 2
+		tax_mult = 0.1
+		knight_effectiveness_mult = 0.1
+		monthly_dynasty_prestige_mult = 0.05
+	}
+	
+	county_modifier = {
+		development_growth_factor = 0.2
+	}
+	province_modifier = {
+		monthly_income = 2
+	}
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+##########
+# Sophia Polotska
+##########
+
+sophia_polotska_01 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_dlc_feature = legends_of_the_dead }
+			desc = building_funeral_effect_desc
+		}
+	}
+
+	
+	asset = {
+		type = pdxmesh
+		name = "building_special_holy_wisdom_01_mesh"
+		requires_dlc_flag = medieval_monuments
+	}
+	construction_time = very_slow_construction_time
+	type_icon = "icon_structure_holy_wisdom.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		monthly_piety_gain_per_knight_add = 0.1
+		learning = 2
+		monthly_dynasty_prestige_mult = 0.05
+	}
+	
+	county_modifier = {
+		development_growth_factor = 0.2
+		tax_mult = 0.1
+	}
+	province_modifier = {
+		monthly_income = 2
+		fort_level = good_building_fort_level_tier_1
+		defender_holding_advantage = normal_building_advantage_tier_1
+	}
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+
+##########
+# Hotin Fortress (AKA: Khotyn Fortress)
+##########
+
+hotin_fort_01 = {
+	construction_time = slow_construction_time
+	
+	type_icon = "icon_structure_hotin_fortress.dds"
+	
+	can_construct_potential = {
+	}
+	
+	cost_gold = 400
+	
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.05
+	}
+	max_garrison = good_building_max_garrison_tier_1
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_2
+		fort_level = good_building_fort_level_tier_1
+		stationed_maa_damage_mult = normal_maa_damage_tier_1
+		stationed_maa_toughness_mult = normal_maa_toughness_tier_1
+		stationed_siege_weapon_siege_value_mult = normal_maa_siege_value_tier_1
+		travel_danger = -10
+	}
+	county_modifier = {
+		tax_mult = 0.05
+		monthly_county_control_growth_add = 0.1
+	}
+	
+	next_building = hotin_fort_02
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+hotin_fort_02 = {
+	construction_time = slow_construction_time
+	
+	type_icon = "icon_structure_hotin_fortress.dds"
+	
+	can_construct_potential = {
+	}
+	
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	
+	cost_gold = 800
+	
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.05
+		martial_per_prestige_level = 1
+	}
+	max_garrison = good_building_max_garrison_tier_2
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_3
+		fort_level = good_building_fort_level_tier_2
+		stationed_maa_damage_mult = normal_maa_damage_tier_2
+		stationed_maa_toughness_mult = normal_maa_toughness_tier_2
+		stationed_siege_weapon_siege_value_mult = normal_maa_siege_value_tier_2
+		travel_danger = -20
+	}
+	county_modifier = {
+		tax_mult = 0.15
+		monthly_county_control_growth_add = 0.5
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+##########
+# Holy Wisdom of Novgorod
+##########
+holy_wisdom_01 = {
+	asset = {
+		type = pdxmesh
+		name = "building_special_holy_wisdom_01_mesh"
+		requires_dlc_flag = medieval_monuments
+	}
+	construction_time = very_slow_construction_time
+	type_icon = "icon_structure_holy_wisdom.dds"
+	can_construct_potential = { building_requirement_tribal = no }
+	is_enabled = {
+		custom_description = {
+			text = holy_site_christian_or_holy_site_trigger
+			OR = {
+				scope:holder = { religion = religion:christianity_religion }
+				custom_description = { text = holy_site_building_trigger barony = { is_holy_site_of = scope:holder.faith } }
+			}
+		}
+	}
+	can_construct = { scope:holder.culture = { has_innovation = innovation_crop_rotation } }
+	cost_gold = 1000
+	character_modifier = {
+		monthly_piety_gain_per_knight_add = 0.1
+		martial_per_piety_level = 1
+		monthly_dynasty_prestige_mult = 0.05
+	}
+	county_modifier = {
+		tax_mult = 0.1
+		monthly_county_control_growth_factor = 0.1
+		development_growth_factor = 0.1
+	}
+	province_modifier = {
+		travel_danger = -20
+		monthly_income = 2
+	}
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	type = special
+	flag = travel_point_of_interest_religious
+}
+
+##########
+# Spas Cathedral
+##########
+
+spas_cathedral_01 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_dlc_feature = legends_of_the_dead }
+			desc = building_funeral_effect_desc
+		}
+	}
+
+	
+	asset = {
+		type = pdxmesh
+		name = "building_special_holy_wisdom_01_mesh"
+		requires_dlc_flag = medieval_monuments
+	}
+	construction_time = very_slow_construction_time
+	type_icon = "icon_structure_holy_wisdom.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		monthly_piety_gain_per_knight_add = 0.1
+		learning = 2
+		martial_per_piety_level = 1
+		monthly_dynasty_prestige_mult = 0.05
+	}
+	
+	county_modifier = {
+		tax_mult = 0.1
+		development_growth_factor = 0.1
+	}
+	province_modifier = {
+		monthly_income = 2
+	}
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+}

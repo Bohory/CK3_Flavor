@@ -143,7 +143,7 @@ drevlyans = {
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_druzhina
-                tradition_wetlanders
+        tradition_wetlanders
 		tradition_metal_craftsmanship
 	}
 	
@@ -170,7 +170,7 @@ dregovichs = {
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_druzhina
-                tradition_wetlanders
+        tradition_wetlanders
 		tradition_metal_craftsmanship
 	}
 	
@@ -331,8 +331,8 @@ ruthenian = {
 	traditions = {
 		tradition_druzhina
 		tradition_agrarian
-                tradition_brewery
-                tradition_varangians_to_greeks
+        tradition_brewery
+        tradition_varangians_to_greeks
 	}
 	
 	name_list = name_list_russian
@@ -358,9 +358,9 @@ white_rus = {
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_druzhina
-                tradition_artisans
+        tradition_artisans
 		tradition_forest_folk
-                tradition_varangians_to_greeks
+        tradition_varangians_to_greeks
 	}
 	
 	name_list = name_list_russian
@@ -388,7 +388,35 @@ novgorodian = {
 		tradition_hit_and_run
 		tradition_forest_folk
 		tradition_druzhina
-                tradition_varangians_to_greeks
+        tradition_varangians_to_greeks
+	}
+	
+	name_list = name_list_russian
+
+	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { east_slavic_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	ethnicities = {
+		60 = slavic_northern_blond
+		5 = slavic_northern_ginger
+		25 = slavic_northern_brown_hair
+		10 = slavic_northern_dark_hair
+	}
+}
+galich_volhynian = {
+	color = hindustani
+	
+	ethos = ethos_courtly
+	heritage = heritage_east_slavic
+	language = language_east_slavic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_druzhina
+		tradition_agrarian
+        tradition_hill_dwellers
+        tradition_varangians_to_greeks
 	}
 	
 	name_list = name_list_russian

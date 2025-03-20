@@ -17,3 +17,8 @@ l_english:
  building_type_sophia_polotska_01_desc:1 "Modeled and named after a gate in Constantinople, the Golden Gate of Kyiv serves as both an entrance to the city and a triumphal arch. The golden dome of the church, built on top of the gate, can be seen from afar and makes it a prominent symbol of Kyiv."
  building_sophia_polotska_01:0 "$building_type_sophia_polotska_01$"
  building_sophia_polotska_01_desc:0 "$building_type_sophia_polotska_01_desc$"
+
+ building_type_spas_cathedral_01:1 "Spaskyi Cathedral"
+ building_type_spas_cathedral_01_desc:1 "Construction of the cathedral was started by Prince Mstislav of Chernigov.The architecture is unusual as it combines elements of a Roman basilica with a typical Byzantine church. It has three naves with three apses and five domes. There are two towers at the two sides of the main facade."
+ building_spas_cathedral_01:0 "$building_type_spas_cathedral_01$"
+ building_spas_cathedral_01_desc:0 "$building_type_spas_cathedral_01_desc$"

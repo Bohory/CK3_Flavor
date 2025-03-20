@@ -393,14 +393,18 @@
 	culture = severian
 	religion = slavic_pagan
 	holding = tribal_holding
+	special_building_slot = spas_cathedral_01
 	988.1.2 = {
 		holding = castle_holding
 	}
 	989.9.15 = {
 		religion = orthodox
 	}
+	1030.1.1 = { 
+	    special_building = spas_cathedral_01
+	}
 	1066.1.1 = {
-		culture = ruthenian
+	culture = severian
 		buildings = {
 			curtain_walls_01
 			#peat_quarries_01
@@ -442,7 +446,7 @@
 		religion = orthodox
 	}
 	1066.1.1 = {
-		culture = ruthenian
+		culture = severian
 	}
 }
 5204 = {	#Trubetsk
@@ -473,7 +477,7 @@
 		religion = orthodox
 	}
 	1066.1.1 = {
-		culture = ruthenian
+		culture = severian
 	}
 }
 5191 = {	#Borzna
@@ -501,7 +505,7 @@
 		religion = orthodox
 	}
 	1066.1.1 = {
-		culture = ruthenian
+		culture = severian
 	}
 }
 5194 = {	#Vyr'
@@ -526,13 +530,13 @@
 		religion = orthodox
 	}
 	1066.1.1 = {
-		culture = ruthenian
+		culture = severian
 	}
 }
 5197 = {	#Rylsk
 	holding = none
 	1066.1.1 = {
-		culture = ruthenian
+		culture = severian
 	}
 	1152.1.1 = {
 		holding = city_holding
@@ -555,7 +559,7 @@
 		religion = orthodox
 	}
 	1066.1.1 = {
-		culture = ruthenian
+		culture = severian
 	}
 	1178.1.1 = {
 		holding = castle_holding
@@ -611,7 +615,7 @@
 		religion = orthodox
 	}
 	1066.1.1 = {
-		culture = ruthenian
+		culture = severian
 	}
 	1178.1.1 = {
 		holding = castle_holding
@@ -632,7 +636,7 @@
 	holding = tribal_holding
 
 	1066.1.1 = {
-		culture = ruthenian
+		culture = severian
 	    religion = orthodox	  	
 	}
 	1155.1.1 = {

@@ -1,0 +1,177 @@
+embrace_ruthenian_culture_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	}
+	decision_group_type = major
+
+	ai_check_interval = 36
+
+	desc = embrace_ruthenian_culture_decision_desc
+
+	is_shown = {
+		game_start_date < 867.1.1
+		culture = {
+			OR = {
+				any_parent_culture = {
+					this = culture:severian
+					this = culture:volhynian
+					this = culture:polans
+					this = culture:drevlyans
+					this = culture:tiverians
+				}
+				has_cultural_pillar = heritage_east_slavic
+			}
+			NOT = {
+				this = culture:english
+			}
+		}
+		OR = {
+			any_claim = {
+				this = title:e_russia
+			}
+			any_claim = {
+				this = title:k_ruthenia
+			}
+			OR = {	
+				title:k_england = {
+					any_in_de_jure_hierarchy = {
+						root.primary_title = this
+					}
+				}
+				root.primary_title = title:e_russia
+			}
+		}
+		
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:embrace_english_culture_decision
+			}
+		}
+	}
+
+	is_valid = {
+		custom_description = {
+			text = capital_in_england_region_tooltip
+			capital_province = {
+				geographical_region = custom_england
+			}
+		}
+		has_title = title:k_ruthenia
+		trigger_if = {
+			limit = {
+				has_dlc_feature = roads_to_power
+			}
+			OR = {
+				custom_description = {
+					text = harrying_ended_tooltip
+					NOT = {
+						has_global_variable = harrying_of_the_north
+					}
+				}
+				custom_description = {
+					text = high_pacification_tooltip
+					any_owned_story = {
+						story_type = story_cycle_harrying_of_the_north
+						var:pacification > var:resistance
+						var:pacification > 14
+						var:embrace_culture_decision_counter > 11
+					}
+				}
+			}
+		}
+		trigger_if = {
+			limit = {
+				OR = {
+					any_realm_county = {
+						culture = culture:english
+					}
+					culture.culture_head = {
+						any_realm_county = {
+							culture = culture:english
+						}
+					}
+					culture:english = {
+						exists = culture_head
+					}
+				}
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_available_adult = yes
+		NOT = {
+			government_has_flag = government_is_landless_adventurer
+		}
+	}
+
+	effect = {
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:embrace_english_culture_decision
+		}
+		show_as_tooltip = {
+			embrace_english_culture_effect = yes
+		}
+
+		trigger_event = british_isles.2001
+	}
+	
+	ai_potential = {
+		is_playable_character = yes
+		culture = {
+			OR = {
+				any_parent_culture = {
+					this = culture:norman
+				}
+				has_cultural_pillar = heritage_frankish
+			}
+			NOT = {
+				this = culture:english
+			}
+		}
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:embrace_english_culture_decision
+			}
+		}
+		trigger_if = {
+			limit = {
+				OR = {
+					any_realm_county = {
+						culture = culture:english
+					}
+					culture.culture_head = {
+						any_realm_county = {
+							culture = culture:english
+						}
+					}
+					culture:english = {
+						exists = culture_head
+					}
+				}
+			}
+			culture = {
+				cultural_acceptance = {
+					target = culture:english
+					value >= 80
+				}
+			}
+		}
+		trigger_else = {
+			culture = {
+				cultural_acceptance = {
+					target = culture:anglo_saxon
+					value >= 80
+				}
+			}
+		}
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
