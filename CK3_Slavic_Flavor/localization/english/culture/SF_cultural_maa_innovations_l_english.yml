@@ -1,0 +1,12 @@
+﻿l_english:
+
+ #Rus Military Tradition
+
+ culture_parameter_unlock_maa_kinna_druzhina:0 "Can recruit [GetMaA('kinna_druzhina').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_voyi:0 "Can recruit [GetMaA('voyi').GetName] as [men_at_arms|E]"
+
+ innovation_kinna_druzhina:0 "Kinna Druzhina"
+ innovation_kinna_druzhina_desc:0 "Mounted Druzhina. Elite noble warriors of Rus`."
+
+ innovation_voyi:0 "Voyi"
+ innovation_voyi_desc:0 "Tribal militia known as voyi the basis of the army in Kievan Rus'."

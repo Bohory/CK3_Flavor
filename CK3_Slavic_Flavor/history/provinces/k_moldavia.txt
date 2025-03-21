@@ -118,9 +118,6 @@
 		religion = orthodox
 	}
 	1066.1.1 = {
-		culture = galich_volhynian
-	}
-	1178.1.1 = {
 		culture = vlach
 	}
 }
@@ -143,9 +140,6 @@
 		religion = orthodox
 	}
 	1066.1.1 = {
-		culture = galich_volhynian
-	}
-	1178.1.1 = {
 		culture = vlach
 	}
 }
@@ -165,9 +159,6 @@
 		religion = orthodox
 	}
 	1066.1.1 = {
-		culture = galich_volhynian
-	}
-	1178.1.1 = {
 		culture = vlach
 	}
 }
@@ -311,9 +302,6 @@
 		religion = orthodox
 	}
 	1066.1.1 = {
-		culture = galich_volhynian
-	}
-	1178.1.1 = {
 		culture = vlach
 	}
 }
