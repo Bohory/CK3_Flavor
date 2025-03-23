@@ -34,9 +34,10 @@ druzhina = {
 
 	terrain_bonus = {
 		hills = { damage = 5 toughness = 10 }
-		forest = { toughness = 5 }
-		steppe = { damage = -10 toughness = -15 screen = -10 }
-		wetlands = { damage = -15 toughness = -10 screen = -5 }
+		taiga = { damage = 5 toughness = 5 }
+		forest = { damage = 5 toughness = 5 }
+		steppe = { toughness = -10 screen = -10 }
+		wetlands = { damage = -10 toughness = -10 screen = -5 }
 	}
 	can_recruit = {
 		valid_for_maa_trigger = { PARAMETER = unlock_maa_druzhina }
@@ -61,12 +62,13 @@ kinna_druzhina = {
 	damage = 110
 	toughness = 40
 	pursuit = 15
-	screen = 0
+	screen = 5
 	
 	terrain_bonus = {
+		farmlands = { damage = 25 toughness = 10}
 		plains = { damage = 25 toughness = 10 }
 		drylands = { damage = 20 }
-		steppe = {oughness = -15 screen = -10 }
+		steppe = { toughness = -15 screen = -10 }
 		hills = { damage = -15 }
 		mountains = { damage = -50 }
 		desert_mountains = { damage = -50 }
@@ -76,11 +78,6 @@ kinna_druzhina = {
 	counters = {
 		archers = 1
 		skirmishers = 1
-	}
-
-	winter_bonus = {
-		normal_winter = { damage = -10 toughness = -5 }
-		harsh_winter = { damage = -20 toughness = -10 }
 	}
 	
 	can_recruit = {
@@ -123,9 +120,6 @@ voyi = {
 	}
 	can_recruit = {
 		valid_for_maa_trigger = { PARAMETER = unlock_maa_voyi }
-		NOT = {
-			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
-		}
 	}
 
 	buy_cost = { gold = guanch_vaulter_recruitment_cost }
