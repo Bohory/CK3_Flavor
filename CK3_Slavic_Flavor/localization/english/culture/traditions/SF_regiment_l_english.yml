@@ -86,9 +86,13 @@
  TRANSFER_TITLE_MAA_ALREADY_OWNS_MAA: "@warning_icon! [TITLE.GetShortUIName] already controls one or more of the target men-at-arms regiments."
 
  #Cultural MaA
+ druzhina:0 "Druzhina"
  kinna_druzhina:0 "Kinna Druzhina"
  voyi:0 "Voyi"
  
  #MaA Descriptions
+ druzhina_flavor:1 "#F Druzhina or Companions Elite heavy armored warriors of Rus`.#!"
  kinna_druzhina_flavor:1 "#F Mounted Druzhina. Elite, noble warriors of Rus`.#!"
  voyi_flavor:1 "#F Tribal militia known as voyi the basis of the army in Kievan Rus'.#!"
+
+ 

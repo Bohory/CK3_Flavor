@@ -33,7 +33,7 @@ druzhina = {
 	}
 
 	terrain_bonus = {
-		hills = { damage = 5 toughness = 10 }
+		hills = { damage = 5 toughness = 5 }
 		taiga = { damage = 5 toughness = 5 }
 		forest = { damage = 5 toughness = 5 }
 		steppe = { toughness = -10 screen = -10 }
@@ -105,10 +105,10 @@ voyi = {
 	screen = 10
 	
 	terrain_bonus = {
-		forest = { damage = 10 toughness = 7 pursuit = 5 screen = 5 }
+		forest = { damage = 7 toughness = 7 pursuit = 5 screen = 5 }
 		hills = { damage = 7 toughness = 7 }
-		mountains = { damage = 7 toughness = 7 }
-		wetlands = { damage = 7 }
+		mountains = { damage = 5 toughness = 5 }
+		wetlands = { damage = 5 }
 	}
 
 	winter_bonus = {
