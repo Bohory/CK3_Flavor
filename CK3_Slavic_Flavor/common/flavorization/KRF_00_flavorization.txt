@@ -165,3 +165,45 @@ prince_female_novgorodian_empire = {
 	governments = { feudal_government tribal_government }
 	top_liege = no
 }
+
+# Severian
+prince_male_severian = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 40
+	name_lists = { name_list_russian }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+prince_female_severian = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 40
+	name_lists = { name_list_russian }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+prince_male_severian_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 40
+	name_lists = { name_list_russian }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}
+prince_female_severian_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 40
+	name_lists = { name_list_russian }
+	governments = { feudal_government tribal_government }
+	top_liege = no
+}

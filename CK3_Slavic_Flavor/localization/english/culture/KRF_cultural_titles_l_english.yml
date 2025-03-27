@@ -99,7 +99,27 @@
  prince_female_galich_volhynian:0 "Kniazhna"
  prince_male_galich_volhynian_empire:0 "Tsarevich"
  prince_female_galich_volhynian_empire:0 "Tsarevna"
- 
+
+# Severian
+ #baron_republic_male_severian:0 "Posadnik" # not working
+ #baron_republic_female_severian:0 "Posadnitsa" # not working
+ baron_feudal_male_severian:0 "Boyar"
+ baron_feudal_female_severian:0 "Boyaress"
+ barony_feudal_severian:0 "Volost"
+ count_feudal_male_severian:0 "Namestnik"
+ count_feudal_female_severian:0 "Namestnitsa"
+ county_feudal_severian:0 "Uyezd"
+ duke_feudal_male_severian:0 "Knyaz"
+ duke_feudal_female_severian:0 "Knyazitsa"
+ duchy_feudal_severian:0 "Knyazhestvo"
+ king_feudal_male_severian:0 "Grand Knyaz"
+ king_feudal_female_severian:0 "Grand Knyazitsa"
+ kingdom_feudal_severian:0 "Grand Knyazhestvo"
+ prince_male_severian:0 "Kniazhich"
+ prince_female_severian:0 "Kniazhna"
+ prince_male_severian_empire:0 "Tsarevich"
+ prince_female_severian_empire:0 "Tsarevna"
+  
 # Vanilla
  duke_feudal_male_russian:0 "Prince"
  duke_feudal_female_russian:0 "Princess"
