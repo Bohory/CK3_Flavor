@@ -680,3 +680,132 @@ county_feudal_croatian = {
 	governments = { feudal_government tribal_government }
 	name_lists = { name_list_croatian }
 }
+
+# Severian
+baron_republic_male_severian = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	top_liege = no
+	governments = { republic_government }
+	name_lists = { name_list_russian }
+}
+baron_republic_female_severian = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	top_liege = no
+	governments = { republic_government }
+	name_lists = { name_list_russian }
+}
+barony_republic_severian = {
+	type = title
+	tier = barony
+	priority = 7
+	governments = { republic_government }
+	name_lists = { name_list_russian }
+}
+baron_feudal_male_severian = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { feudal_government tribal_government }
+	name_lists = { name_list_russian }
+}
+baron_feudal_female_severian = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { feudal_government tribal_government }
+	name_lists = { name_list_russian }
+}
+barony_feudal_severian = {
+	type = title
+	tier = barony
+	priority = 7
+	governments = { feudal_government tribal_government }
+	name_lists = { name_list_russian }
+}
+count_feudal_male_severian = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government tribal_government }
+	name_lists = { name_list_russian }
+}
+count_feudal_female_severian = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government tribal_government }
+	name_lists = { name_list_russian }
+}
+county_feudal_severian = {
+	type = title
+	tier = county
+	priority = 18
+	governments = { feudal_government tribal_government }
+	name_lists = { name_list_russian }
+}
+duke_feudal_male_severian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 30
+	governments = { feudal_government tribal_government }
+	name_lists = { name_list_russian }
+}
+duke_feudal_female_severian = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 30
+	governments = { feudal_government tribal_government }
+	name_lists = { name_list_russian }
+}
+duchy_feudal_severian = {
+	type = title
+	tier = duchy
+	priority = 30
+	governments = { feudal_government tribal_government }
+	name_lists = { name_list_russian }
+}
+king_feudal_male_severian = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 47
+	governments = { feudal_government tribal_government }
+	name_lists = { name_list_russian }
+}
+king_feudal_female_severian = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	governments = { feudal_government tribal_government }
+	name_lists = { name_list_russian }
+}
+kingdom_feudal_severian = {
+	type = title
+	tier = kingdom
+	priority = 47
+	governments = { feudal_government tribal_government }
+	name_lists = { name_list_russian }
+}
