@@ -75,7 +75,15 @@ sophia_kyivska_01 = {
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
-	
+	is_enabled = {
+		custom_description = {
+			text = holy_site_christian_or_holy_site_trigger
+			OR = {
+				scope:holder = { religion = religion:christianity_religion }
+				custom_description = { text = holy_site_building_trigger barony = { is_holy_site_of = scope:holder.faith } }
+			}
+		}
+	}
 	show_disabled = yes
 	
 	cost_gold = 1000
@@ -130,7 +138,15 @@ sophia_polotska_01 = {
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
-	
+	is_enabled = {
+		custom_description = {
+			text = holy_site_christian_or_holy_site_trigger
+			OR = {
+				scope:holder = { religion = religion:christianity_religion }
+				custom_description = { text = holy_site_building_trigger barony = { is_holy_site_of = scope:holder.faith } }
+			}
+		}
+	}
 	show_disabled = yes
 	
 	cost_gold = 1000
@@ -257,6 +273,12 @@ hotin_fort_02 = {
 # Holy Wisdom of Novgorod
 ##########
 holy_wisdom_01 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_dlc_feature = legends_of_the_dead }
+			desc = building_funeral_effect_desc
+		}
+	}
 	asset = {
 		type = pdxmesh
 		name = "building_special_holy_wisdom_01_mesh"
@@ -325,7 +347,15 @@ spas_cathedral_01 = {
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
-	
+	is_enabled = {
+		custom_description = {
+			text = holy_site_christian_or_holy_site_trigger
+			OR = {
+				scope:holder = { religion = religion:christianity_religion }
+				custom_description = { text = holy_site_building_trigger barony = { is_holy_site_of = scope:holder.faith } }
+			}
+		}
+	}
 	show_disabled = yes
 	
 	cost_gold = 1000
